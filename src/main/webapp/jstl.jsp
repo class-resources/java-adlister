@@ -13,7 +13,7 @@
 
 <%
 
-    request.setAttribute("lactoseIntolarant", false);
+    request.setAttribute("lactoseIntolerant", false);
 
 
     List<String> dairyProducts = new ArrayList<>();
