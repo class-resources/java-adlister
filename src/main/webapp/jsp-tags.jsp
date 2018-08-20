@@ -7,7 +7,11 @@
 <% List<Integer> nums = new ArrayList<>(); %>
 
 <%-- This is a way to define instance variables on what will become this JSP's servlet object --%>
-<%! int x = 2; %>
+<%! int instanceCount = 1;%>
+<%= instanceCount += 1 %>
+
+<% int localCount = 1; %>
+<%= localCount += 1 %>
 
 <html>
 <head>
