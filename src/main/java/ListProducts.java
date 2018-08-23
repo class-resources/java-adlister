@@ -4,7 +4,7 @@ import java.util.List;
 //IMPLEMENTS METHODS DEFINED IN Products Interface
 
 class ListProducts implements Products {
-    //arraylist of product ibjects; stand-in database
+    //arraylist of product objects; stand-in database
     private List<Product> products = new ArrayList();
 
         // When an instance of this class is created, we'll populate the
